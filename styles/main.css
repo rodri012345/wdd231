@@ -125,20 +125,28 @@ section {
 
 .clase {
     margin: 1.5rem;
+    display: flex;
+    gap: 25px;
     justify-content: center;
     text-align: center;
     margin-bottom: 20px;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 15px;
 }
 
 .clase button {
-    padding: 10px 20px;
+    padding: 15px 60px;
     margin: 5px;
     border: none;
     cursor: pointer;
     font-weight: bold;
     background-color: black;
     color: white;
-    border-radius: 5px;
+    border-radius: 15px;
+}
+
+.clase button:hover{
+    background-color: rgb(13, 111, 191);
 }
 
 .course-button {
@@ -146,6 +154,7 @@ section {
     flex-wrap: wrap;
     justify-content: center;
     gap: 10px;
+    padding: 20px;
 }
 
 .buttons {
@@ -153,24 +162,38 @@ section {
 }
 
 .course {
-    padding: 15px 250px;
+    padding: 15px 320px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     border: none;
     cursor: pointer;
     width: 120px;
-    margin: 20px;
+    margin: 10px;
     
 }
 .cse {
-    background-color: brown;
+    background-color: rgb(17, 75, 133);
     color: white;
+    display: flex;
+    justify-content: center;
 }
+
+.cse:hover{
+    background-color: rgb(51, 137, 222);
+}
+
 .wdd {
-    background-color: #A0522D;
+    background-color: #190598;
     color: white;
+    display: flex;
+    justify-content: center;
 }
+
+.wdd:hover{
+    background-color: #290ce8;
+}
+
 .hidden {
     display: none;
 }
@@ -186,4 +209,9 @@ footer {
 footer p {
     color: aliceblue;
     justify-self: center;
+}
+
+#last-modified{
+    color: yellow;
+    margin-top: 10px;
 }
