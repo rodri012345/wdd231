@@ -1,0 +1,189 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    ;
+    margin: 0;
+}
+
+.head {
+    margin: 0;
+
+}
+
+.head img {
+    width: 120px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.959);
+    margin-right: 20px;
+}
+
+.titu {
+    display: flex;
+    align-items: center;
+    background: #174E70;
+    color: aliceblue;
+    padding: 1.5rem;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+
+.bar {
+    background: #030303;
+    padding: 1rem;
+    margin: 0;
+
+}
+
+.bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bar li a {
+    color: aliceblue;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.bar li a:hover {
+    color: #174E70;
+    text-decoration: overline;
+}
+
+main {
+    max-width: 100%;
+    padding: 1rem;
+}
+
+main h1 {
+    margin: 1rem;
+    color: #174E70;
+}
+
+section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+
+}
+
+.title {
+    background: #174E70;
+    padding: 10px;
+    border-radius: 15px 15px 0 0;
+    text-align: center;
+    color: aliceblue;
+}
+
+.left {
+    grid-column: 1;
+    margin: 10px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.959);
+}
+
+.right {
+    grid-column: 2;
+    margin: 10px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.959);
+}
+
+.list {
+    margin: 1rem;
+}
+
+.image {
+    justify-content: center;
+    margin: 20px;
+}
+
+.image p {
+    margin: 20px;
+}
+
+.image img {
+    width: 200px;
+    height: 300px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.959);
+    border-radius: 10px;
+}
+
+.center {
+    margin: 10px;
+    border: 1px solid #333333;
+    border-radius: 15px;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.959);
+}
+
+.clase {
+    margin: 1.5rem;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.clase button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.course-button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.course {
+    padding: 15px 250px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    width: 120px;
+    margin: 20px;
+    
+}
+.cse {
+    background-color: brown;
+    color: white;
+}
+.wdd {
+    background-color: #A0522D;
+    color: white;
+}
+.hidden {
+    display: none;
+}
+
+footer {
+    background: #174E70;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+footer p {
+    color: aliceblue;
+    justify-self: center;
+}
