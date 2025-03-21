@@ -1,7 +1,7 @@
 * {
     font-family: "Open Sans", sans-serif;
-    ;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .head {
@@ -56,8 +56,9 @@
 }
 
 main {
-    max-width: 100%;
     padding: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 main h1 {
@@ -215,3 +216,5 @@ footer p {
     color: yellow;
     margin-top: 10px;
 }
+
+
