@@ -151,8 +151,9 @@ section {
 }
 
 .course-button {
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
+    gap: 10px; /* Espacio entre botones */
     justify-content: center;
     gap: 10px;
     padding: 20px;
@@ -163,13 +164,13 @@ section {
 }
 
 .course {
-    padding: 15px 320px;
+    padding: 15px;
     font-size: 16px;
     font-weight: bold;
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    width: 120px;
+    width: 95%; 
     margin: 10px;
     
 }
@@ -216,5 +217,4 @@ footer p {
     color: yellow;
     margin-top: 10px;
 }
-
 
