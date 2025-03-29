@@ -35,6 +35,11 @@
         margin: 0;
     }
 
+    main h1{
+        margin-left: 150px;
+        padding: 2rem;
+    }
+
     .name {
         display: block;
         align-items: center;
@@ -68,13 +73,6 @@
         max-width: 300px;
     }
 
-    .business {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
-        max-width: 1200px;
-        margin: 2rem auto;
-    }
 
     .business-box {
         flex: 1 1 30%;
@@ -96,7 +94,16 @@
         margin: 1rem auto;
         padding: 0.5rem;
         text-align: center;
-        
+
+    }
+
+    #members-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        gap: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
     }
 
     .menu button {
@@ -110,17 +117,14 @@
         height: 50px;
     }
 
-    .grid {
+    .business {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-gap: 5px;
         align-items: center;
     }
 
-    .list {
-        display: flex;
-        flex-direction: column;
-    }
+
 
     footer {
         display: flex;
