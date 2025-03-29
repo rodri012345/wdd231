@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Tech Solutions",
+        "address": "123 Innovation Ave, Tech City",
+        "phone": "(555) 123-4567",
+        "website": "https://techsolutions.com",
+        "image": "techsolutions.webp",
+        "membership": 3,
+        "description": "Leading provider of IT consulting and software solutions."
+    },
+    {
+        "name": "Green Earth Landscaping",
+        "address": "456 Nature St, Green Valley",
+        "phone": "(555) 987-6543",
+        "website": "https://greenearth.com",
+        "image": "greenearth.webp",
+        "membership": 2,
+        "description": "Experts in sustainable landscaping and outdoor design."
+    },
+    {
+        "name": "Blue Ocean Travel",
+        "address": "789 Beach Rd, Ocean Town",
+        "phone": "(555) 321-7890",
+        "website": "https://blueoceantravel.com",
+        "image": "blueocean.webp",
+        "membership": 1,
+        "description": "Providing unforgettable travel experiences worldwide."
+    },
+    {
+        "name": "Golden Bakery",
+        "address": "222 Dough St, Bakersfield",
+        "phone": "(555) 654-3210",
+        "website": "https://goldenbakery.com",
+        "image": "goldenbakery.webp",
+        "membership": 3,
+        "description": "Freshly baked goods with traditional recipes."
+    },
+    {
+        "name": "Health First Gym",
+        "address": "333 Fit Lane, Wellness City",
+        "phone": "(555) 741-8529",
+        "website": "https://healthfirstgym.com",
+        "image": "healthfirst.webp",
+        "membership": 2,
+        "description": "State-of-the-art fitness and wellness center."
+    },
+    {
+        "name": "Elite Auto Repairs",
+        "address": "555 Mechanic St, Auto Town",
+        "phone": "(555) 369-1478",
+        "website": "https://eliteautorepairs.com",
+        "image": "eliteauto.webp",
+        "membership": 1,
+        "description": "Top-quality car repair and maintenance services."
+    },
+    {
+        "name": "Sunshine Daycare",
+        "address": "777 Happy Rd, Kidstown",
+        "phone": "(555) 258-3691",
+        "website": "https://sunshinedaycare.com",
+        "image": "sunshinedaycare.webp",
+        "membership": 3,
+        "description": "Caring for your little ones with love and education."
+    }
+]

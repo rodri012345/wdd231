@@ -152,8 +152,8 @@ section {
 
 .course-button {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 columnas */
-    gap: 10px; /* Espacio entre botones */
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 10px; 
     justify-content: center;
     gap: 10px;
     padding: 20px;
