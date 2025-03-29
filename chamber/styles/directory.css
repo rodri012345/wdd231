@@ -92,7 +92,7 @@ main img{
 }
 .overlay {
   position:absolute;
-  top: 40%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%, -50%);
   background-color: rgba(192, 192, 192, 0.5); 
