@@ -1,0 +1,291 @@
+:root {
+  --Principal: #16273A;
+  --second: #B28858;
+  --thirty  : #56B3FA;
+  --forth: #FFFFFF;
+}
+
+* {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: var(--forth);
+  color: #333;
+}
+
+
+header {
+  background-color: var(--Principal);
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  justify-content: center; 
+}
+
+.hamburger {
+  font-size: 2rem;
+  background: #16273A;
+  border: none;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+
+.pose{
+  display: flex;
+  align-items: center;
+  background: #16273A;
+}
+
+header img{
+  width: 60px;
+  height: 60px;
+  margin-right: 1.5rem;
+
+}
+
+nav {
+  display: none;
+  position:absolute;
+  background: #16273A;
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav ul li {
+  margin: 0.5rem 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+nav ul li :hover {
+  color: #bbd3e3;
+  text-decoration: overline;
+}
+
+
+nav.active {
+  display: block;
+}
+
+
+main img{
+  width: 100%;
+  object-fit: cover;
+}
+.overlay {
+  position:absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(192, 192, 192, 0.5); 
+  padding: 20px;
+  display: block   ;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h1 {
+  color: #282828ea;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+button{
+  padding: 1rem;
+  border-radius: 15px;
+  border: #f9f9f9;
+  cursor: pointer;
+}
+
+button img{
+  height: 20%;
+  width: 20%;
+}
+
+.notice h1{
+
+  margin: 1rem;
+}
+
+#events {
+  height: 300px;
+}
+
+.box {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 400px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.456);
+}
+
+.box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.box p {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.box span {
+  font-weight: bold;
+  color: #333;
+}
+
+.box img {
+  width: 30%;
+  display: flex;
+  justify-self: center;
+  padding-right: 2rem;
+}
+
+.sun{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  background: var(--Principal);
+  padding: 10px;
+  border-radius: 15px 15px 0 0;
+  text-align: center;
+  color: aliceblue;
+}
+.info{
+  padding: 1rem;
+}
+
+#business{
+  display: block;
+  align-items: center;
+}
+
+.card{
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 380px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.456);
+}
+
+.name{
+  padding: 1rem;
+  display: block;
+  align-items: center;
+  text-align: center;
+}
+
+.content{
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.logo img{
+  width: 60%;
+}
+.men{
+  display: none;
+}
+
+
+.member-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 380px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.456);
+}
+
+.member-card img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+}
+.spotlights {
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+.spotlights h2 {
+  margin-bottom: 1rem;
+  color: rgb(24, 11, 11);
+}
+
+#spotlight-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+
+
+footer {
+  background: var(--Principal);
+  padding: 30px;
+  margin-top: 15px;
+  display: block;
+  color: aliceblue;
+}
+
+
+footer span {
+  font-weight: bold;
+  color: var(--second);
+}
+
+footer .left{
+  justify-content: left;
+
+}
+
+footer .center{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1.5rem;
+}
+
+.center img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+
+#last-modified{
+  color: yellow;
+  margin-top: 10px;
+}
