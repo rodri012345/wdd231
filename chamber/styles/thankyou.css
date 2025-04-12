@@ -1,0 +1,29 @@
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.data-display {
+    margin-top: 2rem;
+    background: #f9f9f9;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.data-display h3 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.data-display p {
+    margin: 0.5rem 0;
+    font-weight: bold;
+}
+
+.highlight {
+    font-weight: normal;
+    color: #0077cc;
+}

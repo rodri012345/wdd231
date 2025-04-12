@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
     
         randomSpotlights.forEach(member => {
             const spotlight = document.createElement("div");
-            spotlight.classList.add("member-card"); // Reutilizando tu estilo de tarjeta
+            spotlight.classList.add("member-card"); 
             spotlight.innerHTML = `
                 <div class="name">
                     <h2>${member.name}</h2>
